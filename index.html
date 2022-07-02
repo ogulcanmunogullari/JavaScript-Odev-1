@@ -5,8 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clock</title>
+    <script src="main.js" defer></script>
 </head>
-<body id="body" onload="showTime()" style="background-color: brown; color: #fff;">
-    <script src="main.js"></script>
+<body id="body" style="background-color: brown; color: #fff;">
+    <div style="display:flex; justify-content:center; align-items:center; margin-top: 30vh;">
+        <div style="text-align:center">
+            <h1 id="takeId"></h1>
+            <h2><span id="takeHour"></span> : <span id="takeMinute"></span> : <span id="takeSecond"></span></h2>
+            <h3>Front-End Development Patikası'nın JavaScript Bölümü, 1. Ödevindesin!</h3>
+            <h4>Saatin nasıl değiştiğini görmek için F12'ye basıp Elements bölümünden H2'yi inceleyebilirsin.</h4>
+        </div>
+   </div>
+    
 </body>
 </html>
